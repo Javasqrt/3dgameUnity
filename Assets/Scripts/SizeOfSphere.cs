@@ -6,10 +6,10 @@ public class SizeOfSphere : MonoBehaviour
 {
     [SerializeField] private Bullet bullet;
     private Transform _gameObject;
-    private float _minChangeSize = 1f;
-    private float _maxChangeSize = 8f;
-    private float _step = 1f;
-    private static float _currentScaleSize;
+    private  int _minChangeSize = 1;
+    private  int _maxChangeSize = 8;
+    private  int _step = 1;
+    private static int _currentScaleSize;
 
 
 
@@ -20,26 +20,33 @@ public class SizeOfSphere : MonoBehaviour
     {
         _gameObject = GetComponent<Transform>();
 
-        _currentScaleSize = _minChangeSize;
 
+        _currentScaleSize = 0;
     }
 
     
    private void Update()
     {
+       
 
         if (Input.GetMouseButtonDown(0))
         {
-            if (_currentScaleSize <= _maxChangeSize)
-            {
-            _currentScaleSize += _step * Time.deltaTime;
 
-        }
-            
+
+
+
+           
+                if (_currentScaleSize <= _maxChangeSize)
+                {
+                    _currentScaleSize += _step;
+
+            }
+
 
             bullet.DeleteOldGameObject();
             
         }
+       
 
         if (Input.GetMouseButtonUp(0))
         {

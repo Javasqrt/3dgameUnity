@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\CheckDistanse.cs" />
     <Compile Include="Assets\Scripts\StateObjectWall.cs" />
     <Compile Include="Assets\Scripts\ObjectSpot.cs" />
+    <Compile Include="Assets\Scripts\FinishLevel.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
