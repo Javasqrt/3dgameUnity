@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Bullet
     - CameraRenderer
     - CheckDistanse
+    - FinishLevel
     - ObjectSpot
     - SizeOfSphere
     - StateObjectWall
@@ -64,27 +65,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 2096}
     - Class: 114
-      Script: {instanceID: 2628}
+      Script: {instanceID: 2228}
     - Class: 114
-      Script: {instanceID: 2664}
+      Script: {instanceID: 2630}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 2666}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 2850}
     - Class: 114
-      Script: {instanceID: 3074}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 3236}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3532}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 3590}
+      Script: {instanceID: 3534}
+    - Class: 114
+      Script: {instanceID: 3592}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -278,6 +281,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: eb461581e833b1683c1c610ad9d9dc70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishLevel
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
